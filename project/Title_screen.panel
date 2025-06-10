@@ -12,7 +12,7 @@
   "TalkpadWidth": 8,
   "TalkpadHeight": 8,
   "OverrideGamePalette": true,
-  "PanelImagePath": "..\\Graphic assets\\166615.png",
+  "PanelImagePath": "..\\ripped_assets\\graphics\\166615.png",
   "FireIndicatorPath": null,
   "ChoiceIndicatorPath": null,
   "FireIndicatorX": 0,

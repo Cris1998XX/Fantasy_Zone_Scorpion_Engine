@@ -12,7 +12,7 @@
   "TalkpadWidth": 8,
   "TalkpadHeight": 8,
   "OverrideGamePalette": true,
-  "PanelImagePath": "..\\Graphic assets\\title_screen_sms.png",
+  "PanelImagePath": "..\\ripped_assets\\graphics\\title_screen_sms.png",
   "FireIndicatorPath": null,
   "ChoiceIndicatorPath": null,
   "FireIndicatorX": 0,
