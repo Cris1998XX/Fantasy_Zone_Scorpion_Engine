@@ -11,4 +11,9 @@
       <property name="Name" value="moocolon" type="string" />
     </properties>
   </tile>
+  <tile id="2">
+    <properties>
+      <property name="Name" value="opaopa_shot1" type="string" />
+    </properties>
+  </tile>
 </tileset>
