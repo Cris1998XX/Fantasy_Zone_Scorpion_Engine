@@ -2,29 +2,29 @@
   "ShootDirType": "actor_direction",
   "DefaultLookDir": "left",
   "Recycle": "Default",
-  "MoveType": "cpu",
+  "MoveType": "cpu_pattern",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 8,
   "Idles": {
     "UpLeft": "moocolon_left",
-    "Up": "",
-    "UpRight": "moocolon_r",
-    "Left": "moocolon_left",
-    "Right": "moocolon_r",
-    "DownLeft": "moocolon_l",
-    "Down": "",
-    "DownRight": "moocolon_r"
+    "Up": "sawsang_l",
+    "UpRight": "sawsang_l",
+    "Left": "sawsang_l",
+    "Right": "sawsang_l",
+    "DownLeft": "sawsang_l",
+    "Down": "sawsang_l",
+    "DownRight": "sawsang_l"
   },
   "Moves": {
     "UpLeft": "enemy_right",
-    "Up": "",
-    "UpRight": "enemy_right",
+    "Up": "sawsang_l",
+    "UpRight": "sawsang_l",
     "Left": "enemy_right",
-    "Right": "enemy_right",
+    "Right": "sawsang_l",
     "DownLeft": "enemy_right",
-    "Down": "moocolon_l",
-    "DownRight": "enemy_right"
+    "Down": "sawsang_l",
+    "DownRight": "sawsang_l"
   },
   "Attacks": {
     "UpLeft": "",
@@ -93,25 +93,25 @@
     }
   ],
   "InvalidDirections": [
-    true,
-    true,
-    true,
     false,
     false,
     false,
-    true,
-    true,
-    true
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
   ],
   "CollBox": {
-    "X": -8,
-    "Y": -8,
-    "Width": 16,
-    "Height": 16
+    "X": -9,
+    "Y": 1,
+    "Width": 18,
+    "Height": 19
   },
   "AttackDelay": 0,
   "ZOrder": 0,
-  "SpeedLeft": 0.0,
+  "SpeedLeft": 4.0,
   "SpeedRight": 0.0,
   "SpeedUp": 0.0,
   "SpeedDown": 0.0,
@@ -165,9 +165,30 @@
   "AutoNavigate": false,
   "ActorTimeline": {
     "TimelineFrames": {
-      "50": {
-        "X": 16,
-        "Y": 16,
+      "15": {
+        "X": 0,
+        "Y": 19,
+        "EaseX": "linear",
+        "EaseY": "linear",
+        "Bezier": "linear",
+        "BezierPoints": [
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          }
+        ]
+      },
+      "30": {
+        "X": 0,
+        "Y": 2,
         "EaseX": "linear",
         "EaseY": "linear",
         "Bezier": "linear",
@@ -197,6 +218,6 @@
   "IsAttacker": null,
   "PreviewParent": null,
   "RotationEnabled": false,
-  "TileID": 1,
-  "MaxTimelineFrames": 50
+  "TileID": 3,
+  "MaxTimelineFrames": 30
 }

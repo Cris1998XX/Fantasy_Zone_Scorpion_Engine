@@ -16,4 +16,9 @@
       <property name="Name" value="opaopa_shot1" type="string" />
     </properties>
   </tile>
+  <tile id="3">
+    <properties>
+      <property name="Name" value="sawsang" type="string" />
+    </properties>
+  </tile>
 </tileset>
