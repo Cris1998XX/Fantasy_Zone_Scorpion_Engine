@@ -86,6 +86,20 @@
           "LeftSide": "player_lookdir",
           "Comparison": "Equals",
           "RightSide": "Look_Right",
+          "ComparisonNext": "Or",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "player_lookdir",
+          "Comparison": "Equals",
+          "RightSide": "Look_UpRight",
+          "ComparisonNext": "Or",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "player_lookdir",
+          "Comparison": "Equals",
+          "RightSide": "Look_DownRight",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -264,6 +278,20 @@
           "LeftSide": "player_lookdir",
           "Comparison": "Equals",
           "RightSide": "Look_Left",
+          "ComparisonNext": "Or",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "player_lookdir",
+          "Comparison": "Equals",
+          "RightSide": "Look_UpLeft",
+          "ComparisonNext": "Or",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "player_lookdir",
+          "Comparison": "Equals",
+          "RightSide": "Look_DownLeft",
           "ComparisonNext": "End",
           "IsValid": true
         }
