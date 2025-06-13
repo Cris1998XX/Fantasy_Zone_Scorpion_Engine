@@ -1,6 +1,6 @@
 {
   "TargetPlatform": "amiga_aga",
-  "StartupCodeBlock": "startup",
+  "StartupCodeBlock": "00_startup",
   "Recompile": true,
   "DataVersion": 3,
   "Commands": [
