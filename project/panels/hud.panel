@@ -11,7 +11,7 @@
   "TalkpadY": 0,
   "TalkpadWidth": 8,
   "TalkpadHeight": 8,
-  "OverrideGamePalette": true,
+  "OverrideGamePalette": false,
   "PanelImagePath": "hud.png",
   "FireIndicatorPath": null,
   "ChoiceIndicatorPath": null,
@@ -22,7 +22,7 @@
   "GFXMode": "BP5",
   "PanelSlot": "Top",
   "PanelOptionSound": "none",
-  "OverlapsGameView": false,
+  "OverlapsGameView": true,
   "CenterAdjustments": {
     "0": 0,
     "1": 0,
