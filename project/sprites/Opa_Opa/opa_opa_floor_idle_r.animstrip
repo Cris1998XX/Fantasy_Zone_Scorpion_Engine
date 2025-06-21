@@ -6,7 +6,7 @@
           {
             "FrameEventType": "Trigger",
             "Dir": "move_right",
-            "Codeblock": "03_player_movements",
+            "Codeblock": "03_handle_player_movements",
             "Actor": "none",
             "Sound": "none",
             "Variable": null,
