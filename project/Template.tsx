@@ -26,4 +26,9 @@
       <property name="Name" value="sawsang" type="string" />
     </properties>
   </tile>
+  <tile id="5">
+    <properties>
+      <property name="Name" value="enemy_explosion" type="string" />
+    </properties>
+  </tile>
 </tileset>

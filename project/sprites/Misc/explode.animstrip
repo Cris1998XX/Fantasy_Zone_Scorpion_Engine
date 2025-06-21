@@ -58,13 +58,13 @@
       "IsBlank": false
     }
   ],
-  "PreventAttack": false,
+  "PreventAttack": true,
   "PreventMovement": false,
-  "PreventCollision": false,
-  "PreventJump": false,
+  "PreventCollision": true,
+  "PreventJump": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "OnFinish": null,
+  "OnFinish": "destroy_actor",
   "AutoFlip": null,
   "Streamed": true,
   "AnimationTag": null,
