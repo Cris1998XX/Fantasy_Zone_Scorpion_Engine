@@ -8,7 +8,7 @@
   </tile>
   <tile id="1">
     <properties>
-      <property name="Name" value="moocolon" type="string" />
+      <property name="Name" value="opa_opa_floor" type="string" />
     </properties>
   </tile>
   <tile id="2">
@@ -17,6 +17,11 @@
     </properties>
   </tile>
   <tile id="3">
+    <properties>
+      <property name="Name" value="moocolon" type="string" />
+    </properties>
+  </tile>
+  <tile id="4">
     <properties>
       <property name="Name" value="sawsang" type="string" />
     </properties>
